@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import classes from "./Calc.module.css";
-import { set } from "mongoose";
 
 function Calc() {
   const [result, setResult] = useState("");
